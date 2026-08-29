@@ -1,6 +1,6 @@
 # Hi there, I'm Sangilbie! 👋
 
-### 👨‍💻 3rd Year Computer Science Student
+### 👨‍💻 4th Year Computer Science Student
 I am a passionate software developer with a focus on **Mobile Dev / Web Dev / Game Dev**. I love building tools that solve real-world problems.
 
 - I’m currently working on **SilangApp** a Barangay Management System for Barangay Silangan
