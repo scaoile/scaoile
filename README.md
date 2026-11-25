@@ -1,4 +1,4 @@
-<img src="assets/plate.svg" width="880" alt="SANJI.CL — Sangilbie Caoile, full-stack developer. I build software people actually use.">
+<img src="assets/plate.svg" width="880" alt="SANJI.CL — Sangilbie Caoile. The universe is limitless, keep on reaching greater heights.">
 
 I'm Sangilbie Caoile, a fourth-year Computer Science student at the University of
 Makati. I build the unglamorous parts well: a transit guide that works with no
