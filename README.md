@@ -1,7 +1,7 @@
 <img src="assets/plate.svg" width="880" alt="SANJI.CL — Sangilbie Caoile, full-stack developer. I build software people actually use.">
 
 I'm Sangilbie Caoile, a fourth-year Computer Science student at the University of
-Makati who builds software people actually use: a transit guide that works with no
+Makati. I build the unglamorous parts well: a transit guide that works with no
 connection, ticketing and attendance for campus events, a photobooth that keeps
 running when the Wi-Fi doesn't. I like backends that stay quiet and interfaces that
 feel obvious.
@@ -86,12 +86,16 @@ game in Unity.
 ## Experience
 
 **Backend Developer**, Society of Innovative Computing, Dev Team
+
 *August 2026 – present*
+
 Backend for the organisation's event tools: authentication and admin guards, attendee
 registries, QR ticketing and an offline-first print pipeline.
 
 **Full-Stack Developer**, independent practice
+
 *November 2024 – present*
+
 Client work, all remote: inventory and sales tracking, paperless applications,
 incident reporting and an AI study tool, scoped and shipped end to end.
 
@@ -99,7 +103,7 @@ incident reporting and an AI study tool, scoped and shipped end to end.
 
 ## Toolkit
 
-|  | Every day | When needed |
+| Group | Every day | When needed |
 | --- | --- | --- |
 | Languages | TypeScript, JavaScript, Python | Java, HTML/CSS, PHP, C# |
 | Frameworks | React Native, React, Next.js, NestJS, Vite | Spring Boot, ASP.NET Core, FastAPI, Fastify |
@@ -110,15 +114,17 @@ incident reporting and an AI study tool, scoped and shipped end to end.
 
 ## Credentials
 
-**IT Specialist – Databases** — Pearson, November 2026.
-[Verify](https://www.certiport.com/portal/Pages/CredentialVerification.aspx)
+**IT Specialist – Databases**
 
-**Confluent Certified Data Streaming Engineer Foundations** — Confluent, an IBM
-Company, September 2026.
-[Verify](https://training.confluent.io/certification/verify)
+*Pearson, November 2026. [Verify](https://www.certiport.com/portal/Pages/CredentialVerification.aspx)*
 
-**Global MOOC on the Ethics of AI** — LG AI Research, August 2026.
-[Verify](https://www.coursera.org/account/accomplishments/verify/G9AS0DMUYH1P)
+**Confluent Certified Data Streaming Engineer Foundations**
+
+*Confluent, an IBM Company, September 2026. [Verify](https://training.confluent.io/certification/verify)*
+
+**Global MOOC on the Ethics of AI**
+
+*LG AI Research, August 2026. [Verify](https://www.coursera.org/account/accomplishments/verify/G9AS0DMUYH1P)*
 
 ---
 
