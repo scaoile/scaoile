@@ -1,150 +1,148 @@
-# Sangilbie Caoile
+<img src="assets/plate.svg" width="880" alt="SANJI.CL — Sangilbie Caoile, full-stack developer. I build software people actually use.">
 
-**Backend-leaning full-stack developer.** Fourth-year Computer Science student at the
-University of Makati, backend developer on the Society of Innovative Computing dev team,
-and the person behind [SANJI.CL](https://sanji-cl.vercel.app).
+I'm Sangilbie Caoile, a fourth-year Computer Science student at the University of
+Makati who builds software people actually use: a transit guide that works with no
+connection, ticketing and attendance for campus events, a photobooth that keeps
+running when the Wi-Fi doesn't. I like backends that stay quiet and interfaces that
+feel obvious.
 
-I build systems for places that still run on paper — a barangay service desk, a city's
-urban poor affairs office, a student organisation's events — mostly as web apps, sometimes
-as mobile ones. Mostly TypeScript, Python and Java; mostly PostgreSQL, MySQL and Prisma.
+Twelve projects, four awards and three credentials are on
+[sanji-cl.vercel.app](https://sanji-cl.vercel.app). Six of them are here.
 
-- Building **KomyutPH**, my thesis: a crowdsourced transit router for the informal routes
-  across Taguig, Makati and Pateros.
-- Backend on the **Society of Innovative Computing** dev team: auth and admin guards,
-  attendee registries, QR ticketing, an offline-first print pipeline.
-- Taking client work independently since November 2024 — inventory and sales tracking,
-  paperless applications, incident reporting, an AI study tool.
-- Twelve projects, screenshots and full write-ups: **[sanji-cl.vercel.app](https://sanji-cl.vercel.app)**
-- Open to internship and junior backend roles.
+## Projects
 
----
+### KomyutPH
 
-## Selected work
+*2026 – present, thesis. Technical documentation lead and the travel-time model, team of 4.*
 
-### KomyutPH · 2026 – present
-
-**Transit Tech.** A crowdsourced map and router for informal transit — jeepneys,
-tricycles, UV Express, buses and rail — across Taguig, Makati and Pateros. Trips record
-GPS offline, a Python pipeline map-matches them, clusters stops and predicts travel
+A crowdsourced map and router for informal transit — jeepneys, tricycles, UV
+Express, buses and rail — across Taguig, Makati and Pateros. Trips record GPS
+offline, a Python pipeline map-matches them, clusters stops and predicts travel
 times, and the API keeps routes, fares and city route packs in PostGIS.
-
-*Thesis project. Technical documentation lead and travel-time model.*
 
 `React Native` `Expo` `NestJS` `PostgreSQL` `PostGIS` `Redis` `FastAPI`
 
-### SIC App · Oct 2026
+### SIC App
 
-**Event Ops.** An operations console for the student organisation: publish events, import
-attendees from CSV, issue signed QR tickets scanned at the door, and send segmented email
-campaigns with per-recipient delivery tracking. Asset library, CSV exports and a QR
-short-link generator alongside. Served 80+ students.
+*October 2026. Backend developer, team of 3.*
 
-*Backend developer, team of 3.*
+An operations console for the student organisation: publish events, import attendees
+from CSV, issue signed QR tickets scanned at the door, and send segmented email
+campaigns with per-recipient delivery tracking. An asset library, CSV exports and a
+QR short-link generator sit alongside. It served 80+ students.
 
 `Next.js` `React` `Tailwind CSS` `Prisma` `Neon`
 
-### SilangApp · Sep – Dec 2025
+### SilangApp
 
-**GovTech.** A barangay platform for Barangay Silangan in Pateros: verified resident
-accounts, document requests, complaints, announcements, event check-in, business listings
-and chat with officials — two mobile apps and a desktop portal, gated by eight roles.
+*September to December 2025. Full-stack across the API and both clients, team of 4.*
 
-*Full-stack across the API and both clients, team of 4.*
+A barangay platform for Barangay Silangan in Pateros: verified resident accounts,
+document requests, complaints, announcements, event check-in, business listings and
+chat with officials — two mobile apps and a desktop portal, gated by eight roles.
+The API adds refresh-token rotation, notifications and uploads.
 
 `React Native` `React` `NestJS` `Prisma` `PostgreSQL` `Socket.io`
 
-### Inventrix · Oct – Nov 2025
+### Inventrix
 
-**Inventory & Orders.** A server-rendered inventory and order system: products,
-categories, suppliers and warehouses; purchase and sales orders with line items; stock
-movements and transfers between warehouses; low-stock alerts, an audit log, and
-financial, purchase and stock reports.
+*October to November 2025. Full-stack, from the JPA model and services to the FreeMarker screens, team of 3.*
 
-*Full-stack, from the JPA model and services to the FreeMarker screens, team of 3.*
+A server-rendered inventory and order system: products, categories, suppliers and
+warehouses; purchase and sales orders with line items; stock movements and transfers
+between warehouses; low-stock alerts, an audit log, and financial, purchase and stock
+reports. Roles gate the console and seeded data fills it.
 
 `Java` `Spring Boot` `Hibernate` `MySQL`
 
-### Maki · Oct 2026
+### Maki
 
-**EdTech.** A zero-login admissions assistant for the University of Makati that answers
-only from four bundled source documents — scholarships, requirements, campus map and
-offices — and verifies every citation server-side.
+*October 2026. Lead developer on the pre-development documents and the citation-backed chat, team of 4.*
 
-*Lead developer on the pre-development documents and the citation-backed chat, team of 4.*
+A zero-login admissions assistant for the University of Makati that answers only from
+four bundled source documents — scholarships, requirements, campus map and offices —
+and verifies every citation server-side. The interface adds journey cards, follow-up
+prompts and a citation viewer that opens the original page of the PDF.
 
 `React` `Vite` `Tailwind CSS` `FastAPI`
 
-### AiKareer · Sep – Dec 2024
+### AiKareer
 
-**HR Tech.** An AI career assistant: a Gemini-backed chatbot with per-user history, a
-multi-part assessment that returns feedback and skill-gap analysis, and a résumé builder
-that exports PDF.
+*September to December 2024. Backend and the AI layer, team of 4.*
 
-*Backend and the AI layer, team of 4.*
+An AI career assistant: a Gemini-backed chatbot with per-user history, a multi-part
+assessment that returns feedback and a skill-gap analysis, and a résumé builder that
+exports PDF. Accounts cover email verification and OTP password reset.
 
 `ASP.NET Core` `C#` `MongoDB` `Gemini API`
 
-The other six — **KokoMyut**, **SIC Photobooth**, **Smart Recall**, **Muntinlupa UPA**,
-**TamboLink** and **JL Mart** — are documented on [the site](https://sanji-cl.vercel.app).
-Earlier: **AR Kingdom Defense**, an AR tower-defence game in C# / Unity / Vuforia.
+The rest: **KokoMyut** (offline transit), **SIC Photobooth** (events), **Smart Recall**
+(studying), **Muntinlupa UPA** (city services), **TamboLink** (barangay services) and
+**JL Mart** (e-commerce). Earlier work includes AR Kingdom Defense, a tower-defence
+game in Unity.
+
+---
+
+## Experience
+
+**Backend Developer**, Society of Innovative Computing, Dev Team
+*August 2026 – present*
+Backend for the organisation's event tools: authentication and admin guards, attendee
+registries, QR ticketing and an offline-first print pipeline.
+
+**Full-Stack Developer**, independent practice
+*November 2024 – present*
+Client work, all remote: inventory and sales tracking, paperless applications,
+incident reporting and an AI study tool, scoped and shipped end to end.
 
 ---
 
 ## Toolkit
 
-*Daily drivers*
-
-<p align="left">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge" alt="Python" />
-  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" alt="React" />
-  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React_Native-20232A?logo=react&logoColor=61DAFB&style=for-the-badge" alt="React Native" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white&style=for-the-badge" alt="NestJS" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white&style=for-the-badge" alt="Prisma" />
-  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge" alt="Git" />
-  <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge" alt="Vercel" />
-</p>
-
-*Worked with*
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white&style=for-the-badge" alt="Java" />
-  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white&style=for-the-badge" alt="Spring Boot" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=for-the-badge" alt="PHP" />
-  <img src="https://img.shields.io/badge/C%23-512BD4?logo=dotnet&logoColor=white&style=for-the-badge" alt="C#" />
-  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?logo=dotnet&logoColor=white&style=for-the-badge" alt="ASP.NET Core" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/Fastify-000000?logo=fastify&logoColor=white&style=for-the-badge" alt="Fastify" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge" alt="MySQL" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white&style=for-the-badge" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white&style=for-the-badge" alt="SQLite" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=for-the-badge" alt="Redis" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss&logoColor=white&style=for-the-badge" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white&style=for-the-badge" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Neon-00E599?logo=neon&logoColor=black&style=for-the-badge" alt="Neon" />
-</p>
+|  | Every day | When needed |
+| --- | --- | --- |
+| Languages | TypeScript, JavaScript, Python | Java, HTML/CSS, PHP, C# |
+| Frameworks | React Native, React, Next.js, NestJS, Vite | Spring Boot, ASP.NET Core, FastAPI, Fastify |
+| Data | PostgreSQL, Prisma, SQLite | PostGIS, MySQL, MongoDB, Hibernate, Redis |
+| Cloud and tools | Git, Vercel | Neon, Render, Gemini API, Supabase |
 
 ---
 
-## Recognition
+## Credentials
 
-- **1st Runner Up** — InfoTechnolympics 2026, Hackathon category, with Best in UI and UX for Maki
-- **Champion** — InfoTechnolympics 2025, C# category, a timed problem-solving race
-- **Finalist** — Zero Vector Ventures, Stage 0: Build Nothing, Prove Everything V3, top 6 of 15 teams
-- **Dean's Lister** — University of Makati, 2023 – 2026
+**IT Specialist – Databases** — Pearson, November 2026.
+[Verify](https://www.certiport.com/portal/Pages/CredentialVerification.aspx)
 
-Certifications: IT Specialist – Databases (Pearson), Confluent Certified Data Streaming
-Engineer Foundations, Global MOOC on the Ethics of AI (LG AI Research).
+**Confluent Certified Data Streaming Engineer Foundations** — Confluent, an IBM
+Company, September 2026.
+[Verify](https://training.confluent.io/certification/verify)
+
+**Global MOOC on the Ethics of AI** — LG AI Research, August 2026.
+[Verify](https://www.coursera.org/account/accomplishments/verify/G9AS0DMUYH1P)
 
 ---
 
-## Connect
+## Awards
 
-Portfolio **[sanji-cl.vercel.app](https://sanji-cl.vercel.app)** ·
-GitHub [@scaoile](https://github.com/scaoile) ·
-LinkedIn [in/sangilbie-caoile](https://www.linkedin.com/in/sangilbie-caoile-61088b39b/) ·
-Email [sangilbie@gmail.com](mailto:sangilbie@gmail.com) ·
-Instagram [@sanji.cl](https://instagram.com/sanji.cl)
+**1st Runner Up** — InfoTechnolympics 2026, hackathon category. Best in UI and UX,
+for Maki.
+
+**Champion** — InfoTechnolympics 2025, C# category. A timed problem-solving race.
+
+**Finalist** — Zero Vector Ventures, Stage 0: Build Nothing, Prove Everything V3.
+Top 6 of 15 teams.
+
+**Dean's Lister** — University of Makati, 2023 – 2026.
+
+---
+
+## Contact
+
+*Building something? Tell me what it has to do.*
+
+- [sangilbie@gmail.com](mailto:sangilbie@gmail.com)
+- [sanji-cl.vercel.app](https://sanji-cl.vercel.app)
+- [github.com/scaoile](https://github.com/scaoile)
+- [linkedin.com/in/sangilbie-caoile](https://www.linkedin.com/in/sangilbie-caoile-61088b39b/)
+- [instagram.com/sanji.cl](https://instagram.com/sanji.cl)
+- [résumé, PDF](https://sanji-cl.vercel.app/resume.pdf)
